@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/button/button",
+    "pages/content/content",
+    "pages/databind/databind",
+    "pages/index/index",
+    "pages/logs/logs"
+    
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "我的微信小程序应用",
+    "navigationBarTextStyle": "black"
+  }
+}

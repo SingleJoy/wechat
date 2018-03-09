@@ -1,0 +1,79 @@
+<view class="container">
+   <view class="content">
+      <text>{{content}}</text>
+   </view>
+
+
+<view class="content" hidden="{{flag ? true : false}}">
+  <text> {{hiddencontent}}</text>
+
+</view>
+
+<view class="content" wx:if="{{length>5}}">
+  length>5
+</view>
+
+<view class="content" wx:elif="{{length>2}}">
+  length >2
+</view>
+
+<block class="content" wx:if="{{condition}}">
+  <view>view1</view>
+  <view>view2</view>
+</block>
+
+<view class="content">
+  <text>{{num1}}+{{num2}}={{num1+num2}}</text>
+</view>
+
+
+<view>
+ <text>{{"hello "+ user.name}}</text>
+</view>
+</view>
+<view class="container">
+ <text class="text-red">wx:for</text>
+<view wx:for="{{users}}" class="content">
+    <text>{{index}}-{{item.name}}-{{item.age}}</text>
+</view>
+<view wx:for="{{users}}" class="content" wx:for-index="idx" wx:for-item="user">
+    <text>{{idx}}-{{user.name}}-{{user.age}}</text>
+</view>
+</view>
+
+
+<view class="container">
+ <text class="text-red">wx:for嵌套</text>
+   <view wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="i" >
+      <view wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="j">
+        <view wx:if="{{i<=j}}">
+          {{i}} * {{j}}={{i*j}}
+        </view>
+      </view>
+   </view>
+</view>
+
+<view class="container">
+<!--列表渲染-->
+<block wx:for="{{users}}">
+    <!--调用模板，传入Item对象数据-->
+    <template is="userTemp" data="{{item}}" />
+</block>
+</view>
+
+        <!--定义模板-->
+<template name="userTemp">
+<view class="user">
+    <view >姓名:{{item.name}}</view>
+    <view >性别:{{item.sex}}</view>
+    <view >年龄:{{item.age}}</view>
+</view>
+
+</template>
+
+<import src="template.wxml" />
+<template is="item" data="{{text:'import test'}}"></template>
+
+
+
+

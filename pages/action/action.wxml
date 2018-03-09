@@ -1,0 +1,2 @@
+
+<view id="tapTest" bindtap="tapName">Click me!</view>
