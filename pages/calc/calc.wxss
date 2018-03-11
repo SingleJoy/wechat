@@ -1,0 +1,33 @@
+/* pages/calc/calc.wxss */
+
+.container{
+    justify-content: flex-start;
+    padding: 30rpx 0;
+}
+
+.container input{
+    background-color: #eee;
+    border-radius: 5px;
+    text-align:left;
+    width:80%;
+    height:100rpx;
+    line-height: 100rpx;
+    margin:20rpx;
+    padding-left:20rpx;
+}
+
+.result,.clear{
+    width: 40%;
+    margin:20rpx;
+}
+
+
+.flex-wrp{
+    display: flex;
+}
+.flex-wrp button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20rpx;
+}

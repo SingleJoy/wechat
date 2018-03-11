@@ -1,12 +1,11 @@
 {
   "pages": [
+    "pages/calc/calc",
     "pages/button/button",
     "pages/content/content",
     "pages/databind/databind",
     "pages/index/index",
     "pages/logs/logs"
-    
-    
   ],
   "window": {
     "backgroundTextStyle": "light",

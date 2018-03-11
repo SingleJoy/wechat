@@ -18,13 +18,19 @@ Page({
             disabled:!this.data.disabled
         })
   },
-   // 设置plain变量的值
+  // 设置plain变量的值
     setPlain:function (e) {
         this.setData({
-            plain:!this.data.loading
+            plain:!this.data.Plain
         })
     },
-    // default按钮触按事件处理函数
+    // 设置loading变量的值
+    setLoading:function (e) {
+        this.setData({
+            loading:!this.data.loading
+        })
+    },
+   // default按钮触按事件处理函数
    default:function (e) {
        var d=this.data.defaultSize ==='default'? 'mini':'default';
        this.setData({
@@ -42,7 +48,7 @@ Page({
     warn:function (e) {
         var d=this.data.warnSize ==='default'? 'mini':'default';
         this.setData({
-            primarySize:d //切换primarySize的值
+            primarySize:d //切换warnSize的值
         })
     },
 

@@ -1,0 +1,21 @@
+<!--pages/calc/calc.wxml-->
+<view class="container">
+    <input placeholder="" bindinput="bindInput1" value="{{num1}}"/>
+
+    <view class="flex-wrp" style="flex-direction:row">
+        <button type="primary" bindtap="bindAdd" class="cla" data-index="1">+</button>
+        <button type="primary" bindtap="bindCut" class="cla" data-index="2">-</button>
+        <button type="primary" bindtap="bindTimes" class="cla" data-index="3">x</button>
+        <button type="primary" bindtap="bindDivide" class="cla" data-index="4">/</button>
+    </view>
+
+    <input placeholder="" bindinput="bindInput2" value="{{num2}}"/>
+
+    <view class="flex-wrp" style="flex-direction:row">
+        <button type="default" bindtap="bindStart" class="clear">重置</button>
+        <button type="warn" bindtap="bindCal" class="result">计算</button>
+    </view>
+
+    <input placeholder="结果" value="{{result}}"  disabled="disabled" />
+
+</view>
