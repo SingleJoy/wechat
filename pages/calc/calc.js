@@ -7,6 +7,7 @@ Page({
   data: {
     num1:"" ,//保存被加数
     num2:"" ,//保存加数
+    num3:"" ,//
     result:"" //保存结果
   },
     //计算按钮触按事件处理函数
@@ -16,6 +17,7 @@ Page({
             {
                 disabled:!this.data.disabled
             });
+
     },
     //减法
     bindCut:function (e) {

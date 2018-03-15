@@ -1,5 +1,9 @@
 {
   "pages": [
+
+    "pages/calculator/calculator",
+    "pages/switch/switch",
+    "pages/history/history",
     "pages/calc/calc",
     "pages/button/button",
     "pages/content/content",

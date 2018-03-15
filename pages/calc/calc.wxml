@@ -13,7 +13,7 @@
 
     <view class="flex-wrp" style="flex-direction:row">
         <button type="default" bindtap="bindStart" class="clear">重置</button>
-        <button type="warn" bindtap="bindCal" class="result">计算</button>
+        <button type="warn" bindtap="bindCal" class="result" value="{{num3}}">计算</button>
     </view>
 
     <input placeholder="结果" value="{{result}}"  disabled="disabled" />

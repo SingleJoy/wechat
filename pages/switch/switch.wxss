@@ -1,0 +1,23 @@
+/* pages/switch/switch.wxss */
+.page{
+    background-color: #fbf9fe;
+    height:100%;
+}
+
+.page-hd{
+    padding: 50rpx 50rpx 100rpx 50rpx;
+    text-align: center;
+}
+
+.page-title{
+    display: inline-block;
+    padding:20rpx 40rpx;
+    font-size:32rpx;
+    color:#aaa;
+    border-bottom:1px solid #ccc;
+}
+
+.section{
+    margin-bottom: 80rpx;
+}
+

@@ -1,0 +1,11 @@
+/* pages/history/history.wxss */
+.container{
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding:0;
+    margin:10rpx;
+}
+.container button{
+    width: 95%;
+    margin:10rpx;
+}
