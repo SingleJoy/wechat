@@ -64,12 +64,13 @@ Page({
    id18:"num_0" ,
    id19:"dot" ,
    id20:"equ" ,//等号
-   record:"true" //计算过程记录到历史记录中
+   record:true, //计算过程记录到历史记录中
+   expr:""
   },
 
    clickButton:function (e) {
 
-      var data=this.data.result;    //获取上一个结果值;
+       var data=this.data.result;    //获取上一个结果值;
        var tmp=this.data.temp;     //获取上次的临时结果;
        var lastoper1=this.data.lastoper; //上一次的运算符;
        var noNumFlag=this.data.flag;   //上一次非数字按钮标志
@@ -84,7 +85,7 @@ Page({
        }else{  //不是数字按钮
            noNumFlag=true;
            // console.log(e.target.id);  //在控制台输出按钮的id
-           if(e.target.id="dot"){    //小数点
+           if(e.target.id=="dot"){    //小数点
                if(data.toString().indexOf(".")== -1){   //输入的值中不包含小数点
                    data +=".";
                }
@@ -97,7 +98,7 @@ Page({
                data=0;       //数字清0
                tmp=0;         //清除中间的结果
                lastoper1 ="+";   //设置上次运算符为加
-               saveExprs(exprs)
+
            }else if(e.target.id =="negative"){ //数字取负
                data=-1*data;
            }else if(e.target.id =="back"){  //回退一个字符
@@ -110,12 +111,12 @@ Page({
                expr1 +=data.toString()+"÷";
                data=calculate(tmp,lastoper1,data);
                tmp=data;
-               lastoper1="/";
+               lastoper1 = "÷";
            }else if(e.target.id =="mul"){ //乘法
                expr1 +=data.toString()+"x";
                data=calculate(tmp,lastoper1,data);
                tmp=data;
-               lastoper1="*";
+               lastoper1="x";
            }else if(e.target.id =="add"){ //加法
                expr1 +=data.toString()+"+";
                data=calculate(tmp,lastoper1,data);
