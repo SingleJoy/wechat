@@ -1,0 +1,25 @@
+/* pages/range/range.wxss */
+
+
+.content{margin:40rpx;}
+
+.section{
+    margin-bottom:80rpx;
+}
+.section-gap{
+    padding:0 30rpx;
+}
+
+.section-title{
+    margin-bottom:16rpx;
+    padding-left: 30rpx;
+    padding-right:30rpx;
+}
+
+.btn-area{
+    padding:0 30rpx;
+}
+
+button{
+    margin: 20rpx 0;
+}

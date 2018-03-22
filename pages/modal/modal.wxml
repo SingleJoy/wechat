@@ -1,0 +1,48 @@
+<view class="page">
+
+    <view class="page-hd">
+        <text class="page-title">modal模式对话框</text>
+    </view>
+
+    <view class="page-hd">
+        <modal title="退出应用" hidden="{{modalHidden}}" bindconfirm="modalConfirm" bindcancel="modalCancel" confirm-text="是" cancel-text="否">
+            你是否真的呀退出应用?
+        </modal>
+        <modal title="请选择" hidden="{{modalHidden2}}" no-cancelbindconfirm="modalChange2" bindcancel="modalChange2">
+            <view class="section">
+                <view class="section-title">请输入姓名</view>
+                <input placeholder="姓名" />
+            </view>
+
+            <view class="section">
+                <view class="section-title">想去的国家</view>
+
+                <checkbox-group name="region">
+                    <label class="checkbox" wx:for="{{regions}}">
+                        <checkbox value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                    </label>
+                </checkbox-group>
+
+            </view>
+
+            <view class="section">
+                <view class="section-title">出发日期</view>
+
+               <picker mode="date" name="date1" value="{{date}}" start="2016-09-01"  end="2018-09-01" bindchange="bindDateChange">
+                   <view class="picker">
+                       {{date}}
+                   </view>
+               </picker>
+
+            </view>
+
+
+        </modal>
+
+        <view class="btn-area">
+            <button type="default" bindtap="modalTap">退出应用</button>
+            <button type="default" bindtap="modalTap2">可接收用户输入的对话框</button>
+        </view>
+    </view>
+</view>

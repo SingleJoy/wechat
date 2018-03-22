@@ -1,0 +1,54 @@
+<!--pages/range/range.wxml-->
+<view class="page">
+
+   <view class="page-hd">
+       <text class="page-title">picker 选择器</text>
+   </view>
+
+    <view class="page-hd">
+
+        <view class="section">
+            <view class="section-title">地区选择器</view>
+            <picker bindchange="bindPickerChange" value="{{index}}" range="{{countries}}">
+                <view class="picker">
+                    当前选择:{{countries[index]}}
+                </view>
+            </picker>
+        </view>
+
+        <view class="section">
+            <view class="section-title">日期选择器</view>
+            <picker mode="date" value="{{date}}" start="2016-09-01" end="2018-09-01" bindchange="bindDateChange">
+                <view class="picker">
+                    当前选择:{{date}}
+
+                </view>
+            </picker>
+
+        </view>
+
+        <view class="section">
+            <view class="section-title">时间选择器</view>
+            <picker mode="time" value="{{time}}" start="09:01" end="21:01" bindchange="bindDateChange">
+                <view class="picker">
+                    当前选择:{{time}}
+
+                </view>
+            </picker>
+
+        </view>
+
+        <view class="section">
+            <view class="section-title">其他建议</view>
+            <textarea name="suggest" style="height:100rpx;" placeholder="建议" value="{{suggest}}" />
+
+        </view>
+
+        <view class="btn-area">
+            <button formType="submit" type="primary">提交</button>
+            <button formType="reset" >重置</button>
+        </view>
+
+    </view>
+
+</view>

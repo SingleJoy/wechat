@@ -1,17 +1,45 @@
-<!--pages/button/button.wxml-->
-<view class="container">
+<!--pages/form/form.wxml-->
+<view class="content">
 
-    <button type="default" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
-          disabled="{{disabled}}" bindtap="default" hover-class="other-button-hover">default
-    </button>
+   <form bindsubmit="formSubmit" bindreset="formReset">
 
-    <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
-            disabled="{{disabled}}" bindtap="primary">primary
-    </button>
-    <button type="warn" size="{warnSize}}" loading="{{loading}}" plain="{{plain}}"
-            disabled="{{disabled}}" bindtap="warn">warn
-    </button>
-    <button bindtap="setDisabled">点击设置以上按钮disabled</button>
-    <button bindtap="setPlain">点击设置以上按钮plain</button>
-    <button bindtap="setLoading">点击设置以上按钮loading</button>
+       <view class="section section-gap">
+           <view class="section-title">声音</view>
+           <switch name="voice" checked="{{open}}"></switch>
+       </view>
+
+       <view class="section section-gap">
+           <view class="section-title">音量</view>
+           <slider name="volume" show-value value="{{vol}}"></slider>
+       </view>
+
+       <view class="section section-gap">
+           <view class="section-title">配置名</view>
+          <input name="config-name" placeholder="输入配置名称" value="{{configName}}" />
+       </view>
+
+       <view class="section ">
+           <view class="section-title">类型</view>
+           <radio-group name="type">
+               <label><radio value="type01" checked />类型一</label>
+               <label><radio value="type02" style="margin-left:20rpx;" />类型二</label>
+           </radio-group>
+       </view>
+
+       <view class="section">
+           <view class="section-title">想去的国家</view>
+           <checkbox-group name="region">
+               <label class="checkbox" wx:for="{{regions}}">
+                   <checkbox value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+               </label>
+           </checkbox-group>
+       </view>
+
+       <view class="btn-area">
+           <button formType="submit" type="primary" >确定</button>
+           <button formType="reset"  >重置</button>
+       </view>
+
+   </form>
+
 </view>

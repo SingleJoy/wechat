@@ -1,0 +1,22 @@
+<view class="page">
+
+    <view class="page-hd">
+        <text class="page-title" style="margin-left:20rpx;">audio组件 </text>
+    </view>
+
+    <view class="page-hd">
+        <view class="section section-gap" style="text-align:center">
+           <video id="myVideo" src="{{src}}" binderror="videoErrorCallback"  danmu-list="{{danmuList}}" enable-danmu danmu-btn
+                  controls style="width:100%;"></video>
+        </view>
+
+        <view class="btn-area" style="margin-left:20rpx;">
+            <input placeholder="输入弹幕内容" bindblur="bindInputBlur" />
+            <button bindtap="bindSendDanmu">发送弹幕</button>
+
+        </view>
+
+
+    </view>
+
+</view>

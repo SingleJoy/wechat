@@ -1,5 +1,8 @@
 <!--pages/history/history.wxml-->
 
 <view class="container">
-  <view>{{expr}}</view>
+  <block wx:for="{{exprs}}">
+    <view>{{item}}</view>
+  </block>
+
 </view>

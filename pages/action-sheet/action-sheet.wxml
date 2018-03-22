@@ -1,0 +1,30 @@
+<view class="page">
+    <view class="page-hd">
+        <text class="page-title">
+            action-sheet底部弹出菜单
+        </text>
+    </view>
+
+    <view class="page-bd">
+        <view class="section section-gap">
+
+            <button type="default" bindtap="actionSheetTap">底部弹出菜单</button>
+            <action-sheet hidden="{{actionSheetHidden}}" bindchange="actionSheetChange">
+                <block wx:for="{{actionSheetItems}}" wx:key="key">
+                    <action-sheet-item class="item" bindtap="bind{{item}}">
+                        {{item}}
+                    </action-sheet-item>
+
+                </block>
+                <action-sheet-cancel class="cancel">取消</action-sheet-cancel>
+
+            </action-sheet>
+
+        </view>
+        <view class="section section-gap">
+            <button type="default" bindtap="actionSheetTap2">使用API显示底部菜单</button>
+        </view>
+
+    </view>
+
+</view>

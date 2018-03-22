@@ -5,14 +5,16 @@ Page({
    * 页面的初始数据
    */
   data: {
-    expr:'历史记录'
+    exprs:[]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.data.getStorageSync("expr")
+    this.setData({
+        exprs:wx.getStorageSync("exprs") ||[]
+    })
   },
 
   /**

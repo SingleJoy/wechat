@@ -2,7 +2,7 @@
 // 保存数据在本地缓存数组中
 var saveExprs=function (expr) {
 
-    var exprs=wx.getStorageSync("exprs")||[]  //获取本地缓存
+    var exprs=wx.getStorageSync("exprs")||[] ; //获取本地缓存
     exprs.unshift(expr) ;//在数组开头增加元素
     wx.setStorageSync('exprs',exprs);
 
@@ -98,7 +98,12 @@ Page({
                data=0;       //数字清0
                tmp=0;         //清除中间的结果
                lastoper1 ="+";   //设置上次运算符为加
+               saveExprs(expr1);
 
+           }else if(e.target.id=="history"){
+               wx.navigateTo({
+                   url:"../history/history"
+               })
            }else if(e.target.id =="negative"){ //数字取负
                data=-1*data;
            }else if(e.target.id =="back"){  //回退一个字符
@@ -128,7 +133,7 @@ Page({
                data=calculate(tmp,lastoper1,data);
                tmp=data;
                lastoper1="-";
-
+               saveExprs(expr1);
            }else if(e.target.id=="equ"){ //等号
                expr1+=data.toString();
                data=calculate(tmp,lastoper1,data);
@@ -139,7 +144,7 @@ Page({
                expr1="";
                tmp=0;
                lastoper1="+";
-               saveExprs(expr1)
+               saveExprs(expr1);
 
            }
 
@@ -155,7 +160,7 @@ Page({
    },
     //修改记录标志
     RecordHistory:function (e) {
-        console.log(e);
+        // console.log(e);
         this.setData({
             record:e.detail.value
         })

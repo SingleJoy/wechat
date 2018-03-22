@@ -1,29 +1,37 @@
-// pages/form/form.js
+// pages/range/range.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-     open:true,
-      vol:50,
-      configName:"配置1",
-      regions:[
-          {name:'CHN',value:"中国",checked:'true'},
-          {name:'USA',value:"美国"},
-          {name:'BRA',value:"巴西"},
-          {name:'ENG',value:"英国"},
-          {name:'TUR',value:"法国"}
-      ]
+     countries:['中国','美国','巴西','日本','英国','法国','意大利'],
+      index:0,
+      data:'2018-03-15',
+      time:'12:01'
   },
-    formSubmit:function (e) {
-        console.log("提交表单数据");
-        console.log(e.detail.value)
+    bindPickerChange:function (e) {
+      console.log('picker 发送选择改变');
+      console.log(e.detail.value);
+      this.setData({
+          index:e.detail.value
+      })
     },
-    formReset:function () {
-        console.log('form 发生了reset事件')
-    },
+    bindDateChange:function (e) {
+        console.log('日期发生改变');
+        console.log(e.detail.value);
+        this.setData({
+            date:e.detail.value
+        })
 
+    },
+    bindTimeChange:function (e) {
+        console.log('时间发生改变');
+        console.log(e.detail.value);
+        this.setData({
+            time:e.detail.value
+        })
+    },
 
   /**
    * 生命周期函数--监听页面加载

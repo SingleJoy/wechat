@@ -1,6 +1,14 @@
 {
   "pages": [
-
+    "pages/video/video",
+    "pages/audio/audio",
+    "pages/action-sheet/action-sheet",
+    "pages/modal/modal",
+    "pages/loading/loading",
+    "pages/swiper/swiper",
+    "pages/home/home",
+    "pages/range/range",
+    "pages/form/form",
     "pages/calculator/calculator",
     "pages/switch/switch",
     "pages/history/history",
@@ -14,7 +22,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "我的微信小程序应用",
+    "navigationBarTitleText": "微信小程序",
     "navigationBarTextStyle": "black"
   }
 }
