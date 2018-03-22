@@ -1,0 +1,10 @@
+<view class="container">
+    <view class="btn-area">
+        <button type="primary" bindtap="getweixinTap">获取HTML数据</button>
+    </view>
+
+    <view class="wex-html">
+        <textarea value="{{html}}" style="width:95%;" auto-height maxlength="0" />
+
+    </view>
+</view>

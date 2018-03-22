@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/phone-number/phone-number",
+    "pages/getweixin/getweixin",
     "pages/video/video",
     "pages/audio/audio",
     "pages/action-sheet/action-sheet",

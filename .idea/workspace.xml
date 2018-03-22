@@ -11,28 +11,10 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../select2" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vue-swipe" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vue-vueRouter-note-Firebase-mobile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/action-sheet/action-sheet.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/action-sheet/action-sheet.wxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/action-sheet/action-sheet.wxss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/audio/audio.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/audio/audio.wxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/audio/audio.wxss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/loading/loading.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/loading/loading.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/loading/loading.wxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/loading/loading.wxss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/modal/modal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/modal/modal.wxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/modal/modal.wxss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/range/range.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/range/range.wxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/range/range.wxss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/swiper/swiper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/swiper/swiper.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/swiper/swiper.wxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/swiper/swiper.wxss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/video/video.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/video/video.wxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/getweixin/getweixin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/getweixin/getweixin.wxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/phone-number/phone-number.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/phone-number/phone-number.wxml" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../bootstrap/bootstrap" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../my-exercise/exercise/.idea/.name" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../my-exercise/exercise/.idea/compiler.xml" afterPath="" />
@@ -2253,15 +2235,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../working" afterPath="$PROJECT_DIR$/../working" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.json" afterPath="$PROJECT_DIR$/app.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/calculator/calculator.js" afterPath="$PROJECT_DIR$/pages/calculator/calculator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/form/form.js" afterPath="$PROJECT_DIR$/pages/form/form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/form/form.wxml" afterPath="$PROJECT_DIR$/pages/form/form.wxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/form/form.wxss" afterPath="$PROJECT_DIR$/pages/form/form.wxss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/history/history.js" afterPath="$PROJECT_DIR$/pages/history/history.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/history/history.wxml" afterPath="$PROJECT_DIR$/pages/history/history.wxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/home/home.js" afterPath="$PROJECT_DIR$/pages/home/home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/home/home.wxml" afterPath="$PROJECT_DIR$/pages/home/home.wxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/home/home.wxss" afterPath="$PROJECT_DIR$/pages/home/home.wxss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.config.json" afterPath="$PROJECT_DIR$/project.config.json" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/../my-exercise/exercise/2016全年/20160414/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -2273,21 +2247,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="video.wxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/video/video.wxml">
+      <file leaf-file-name="getweixin.wxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/getweixin/getweixin.wxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="59" lean-forward="false" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
+            <state relative-caret-position="44">
+              <caret line="2" column="52" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="video.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/video/video.js">
+      <file leaf-file-name="phone-number.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/phone-number/phone-number.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            <state relative-caret-position="132">
+              <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calendar.js" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Desktop/选择时间段插件/jQueryCalendar/js/calendar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7436">
+              <caret line="435" column="9" lean-forward="true" selection-start-line="435" selection-start-column="9" selection-end-line="435" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phone-number.wxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/phone-number/phone-number.wxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -2328,6 +2322,11 @@
       <find>section-gap</find>
       <find>tap</find>
       <find>bindSendDanmu</find>
+      <find>getweixinTap</find>
+      <find>phoneTap</find>
+      <find>errMsg</find>
+      <find>清明节</find>
+      <find>0x04bd8</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -2341,10 +2340,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pages/databind/databind.js" />
-        <option value="$PROJECT_DIR$/pages/container/container.wxml" />
-        <option value="$PROJECT_DIR$/pages/container/container.wxss" />
-        <option value="$PROJECT_DIR$/pages/content/content.wxml" />
         <option value="$PROJECT_DIR$/pages/button/button.wxml" />
         <option value="$PROJECT_DIR$/pages/button/button.wxss" />
         <option value="$PROJECT_DIR$/pages/calc/calc.json" />
@@ -2389,9 +2384,13 @@
         <option value="$PROJECT_DIR$/pages/audio/audio.wxss" />
         <option value="$PROJECT_DIR$/pages/audio/audio.wxml" />
         <option value="$PROJECT_DIR$/pages/audio/audio.js" />
-        <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/pages/video/video.js" />
         <option value="$PROJECT_DIR$/pages/video/video.wxml" />
+        <option value="$PROJECT_DIR$/pages/getweixin/getweixin.wxml" />
+        <option value="$PROJECT_DIR$/pages/getweixin/getweixin.js" />
+        <option value="$PROJECT_DIR$/app.json" />
+        <option value="$PROJECT_DIR$/pages/phone-number/phone-number.wxml" />
+        <option value="$PROJECT_DIR$/pages/phone-number/phone-number.js" />
       </list>
     </option>
   </component>
@@ -2441,9 +2440,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -2455,12 +2453,6 @@
               <item name="wechat" type="b2602c69:ProjectViewProjectNode" />
               <item name="wechat" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wechat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wechat" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="audio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wechat" type="b2602c69:ProjectViewProjectNode" />
@@ -2478,6 +2470,12 @@
               <item name="wechat" type="b2602c69:ProjectViewProjectNode" />
               <item name="wechat" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="phone-number" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wechat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wechat" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="video" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -2488,7 +2486,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2635,11 +2634,12 @@
       <workItem from="1521529690661" duration="4896000" />
       <workItem from="1521593197625" duration="5329000" />
       <workItem from="1521600859576" duration="12829000" />
+      <workItem from="1521679644992" duration="10337000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130664000" />
+    <option name="totallyTimeSpent" value="141001000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -2684,41 +2684,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/index/index.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/content/content.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/action/action.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/switch/switch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/switch/switch.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/history/button.js" />
     <entry file="file://$PROJECT_DIR$/pages/button/button.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -2880,7 +2845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="704">
           <caret line="44" column="20" lean-forward="false" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2944,7 +2908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2960,7 +2923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
           <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2976,7 +2938,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="27" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2984,9 +2945,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
-          <folding>
-            <marker date="1521600169044" expanded="true" signature="429:618" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2994,7 +2952,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="24" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3002,7 +2959,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3018,15 +2974,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
           <caret line="27" column="65" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3042,6 +2989,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/getweixin/getweixin.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="52" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/getweixin/getweixin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/phone-number/phone-number.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/phone-number/phone-number.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/选择时间段插件/jQueryCalendar/js/calendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7436">
+          <caret line="435" column="9" lean-forward="true" selection-start-line="435" selection-start-column="9" selection-end-line="435" selection-end-column="9" />
           <folding />
         </state>
       </provider>

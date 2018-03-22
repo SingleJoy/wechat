@@ -1,0 +1,24 @@
+<view class="content">
+    <view class="page-hd">
+        <view class="page-title">手机归属地查询</view>
+    </view>
+
+    <view class="section">
+
+        <input name="phone" placeholder="手机号码" bindinput="bindinput" />
+        <button type="primary" bindtap="phoneTap">查询</button>
+    </view>
+
+   <view class="pih-item" wx:if="{{errNum==0}}">
+       <view class="pih-title">电话号码:{{phone}}</view>
+       <view class="pih-title">所属省份:{{province}}</view>
+       <view class="pih-title">所属城市:{{city}}</view>
+       <view class="pih-title">手机段号:{{prefix}}</view>
+       <view class="pih-title">运营商:{{supplier}}</view>
+   </view>
+
+    <view class="phi-item" wx:if="{{errMsg !=''}}">
+        <view class="err-msg">错误信息:{{errNum}}-{{errMsg}}</view>
+    </view>
+
+</view>
