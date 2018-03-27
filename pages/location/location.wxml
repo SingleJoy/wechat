@@ -1,0 +1,15 @@
+<view class="content">
+
+    <view class="page-hd">
+        <view class="page-title" >获取当前位置</view>
+    </view>
+
+    <view class="section">
+        <button type="primary" bindtap="mapTap">地图定位</button>
+        <button type="primary" bindtap="locationTap">获取地理位置</button>
+
+    </view>
+
+
+
+</view>

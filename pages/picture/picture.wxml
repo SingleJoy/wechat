@@ -1,0 +1,19 @@
+<view class="content">
+
+    <view class="page-hd">
+        <view class="page-title">选择图片</view>
+    </view>
+
+    <view class="section">
+
+        <button type="primary" bindtap="choosePhotoTap1">选择图片</button>
+        <button type="primary" bindtap="choosePhotoTap2">拍照</button>
+        <button type="primary" bindtap="choosePhotoTap2">选择图片/拍照</button>
+
+    </view>
+
+    <view class="section" wx:for="{{sources}}" wx:key="{{index}}">
+        <image src="{{item}}" />
+    </view>
+
+</view>

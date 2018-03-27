@@ -1,0 +1,15 @@
+<view class="content">
+
+    <view class="page-hd">
+        <view class="page-title" >录音</view>
+    </view>
+
+    <view class="section">
+        <button type="primary" bindtap="startTap">开始录音</button>
+        <button type="primary" bindtap="endTap">停止录音</button>
+        <button type="primary" bindtap="playTap">播放录音</button>
+    </view>
+
+    <view class="section">{{formatRecordTime}}</view>
+
+</view>

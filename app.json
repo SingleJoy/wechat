@@ -1,5 +1,8 @@
 {
   "pages": [
+    "pages/network/network",
+    "pages/record/record",
+    "pages/picture/picture",
     "pages/phone-number/phone-number",
     "pages/getweixin/getweixin",
     "pages/video/video",

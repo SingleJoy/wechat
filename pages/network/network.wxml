@@ -1,0 +1,17 @@
+<view class="content">
+
+    <view class="page-hd">
+        <view class="page-title" >获取手机网络状态</view>
+    </view>
+
+    <view class="section">
+        <button type="primary" bindtap="networkTap">查询手机网络状态</button>
+
+    </view>
+
+    <view class="section">
+        <view class="network">当前网络类型:{{network}}</view>
+
+    </view>
+
+</view>

@@ -23,6 +23,12 @@ Page({
 
        if(phone!=null && phone!=''){             //如果手机号码不为空
            var self=this;
+           //显示toast提示信息
+           wx.showToast({
+              title:'正在查询，请稍后...',
+              icon:'loading',
+              duration:10000
+           });
            wx.request({
                url:'https://apis.baidu.com/apistore/mobilenumber/mobilenumber',  //接口地址
                data:{
@@ -46,7 +52,7 @@ Page({
                        })
                    }else{                     //查询失败
                        self.setData({
-                           errMsg:res.data.retMsg,   //错误描述
+                           errMsg:res.data.retMsg||res.data.errMsg,   //错误描述
                            errNum:res.data.errNum     //错误码
                        })
                    }
