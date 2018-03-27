@@ -1,0 +1,22 @@
+<view class="content">
+
+    <view class="page-hd">
+        <view class="page-title" >获取手机信息</view>
+    </view>
+
+    <view class="section">
+        <button type="primary" bindtap="sysinfoTap">查询手机信息</button>
+
+    </view>
+
+    <view class="section">
+        <view class="info-title">当微信设置的语言:{{language}}</view>
+        <view class="info-title">当手机型号:{{ modal}}</view>
+        <view class="info-title">设备像素比:{{pixelRatio}}</view>
+        <view class="info-title">微信平台:{{platform}}</view>
+        <view class="info-title">微信版本:{{version}}</view>
+        <view class="info-title">屏幕高度:{{windowHeight}}</view>
+
+    </view>
+
+</view>

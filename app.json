@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/weather/weather",
+    "pages/sysinfo/sysinfo",
     "pages/network/network",
     "pages/record/record",
     "pages/picture/picture",
