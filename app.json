@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/music/music",
     "pages/weather/weather",
     "pages/sysinfo/sysinfo",
     "pages/network/network",

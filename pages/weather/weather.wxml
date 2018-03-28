@@ -53,5 +53,5 @@
 
     </view>
 
-
+    <text>http://api.map.baidu.com/geocoder/v2/?ak=ASAT5N3tnHIa4APW0SNPeXN5&location=30.572269,104.066541&output=json&pois=0</text>
 </view>
